@@ -1,11 +1,11 @@
-import {Button} from '@mui/material'
+import Buttons from "./components/Buttons.jsx"
+
 
 const App = () => {
   return (
     <div>
       <h1>REact UI</h1>
-      <button>send me</button>
-      <Button variant="contained">Contained</Button>
+       <Buttons/>
     </div>
   )
 }
