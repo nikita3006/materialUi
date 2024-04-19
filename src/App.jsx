@@ -1,6 +1,8 @@
 import Buttons from "./components/Buttons.jsx"
 import CheckBoxes from "./components/CheckBoxes.jsx"
 import RadioButton from "./components/RadioButton.jsx"
+import SliderPage from "./components/Slider.jsx"
+
 
 
 const App = () => {
@@ -10,6 +12,7 @@ const App = () => {
        <Buttons/>
        <CheckBoxes/>
        <RadioButton/>
+       <SliderPage/>
     </div>
   )
 }
