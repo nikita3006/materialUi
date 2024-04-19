@@ -6,6 +6,7 @@ import RangeSliderPage from "./components/RangeSlider.jsx"
 import SelectBox from "./components/Select.jsx"
 import SliderPage from "./components/Slider.jsx"
 import SwitchPage from "./components/Switch.jsx"
+import TabPage from "./components/TabPanel.jsx"
 import TextFieldPage from "./components/TextField.jsx"
 
 
@@ -23,6 +24,7 @@ const App = () => {
        <TextFieldPage/>
        <SwitchPage/>
        <LayoutPage/>
+       <TabPage/>
     </div>
   )
 }
