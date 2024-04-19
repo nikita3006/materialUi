@@ -11,7 +11,7 @@ const CheckBoxes = () => {
     }
   return (
     <div>
-         <h1>
+         <h1> Checkboxes </h1>
             <Checkbox 
             color='secondary' 
             value= 'nikita'
@@ -44,7 +44,7 @@ const CheckBoxes = () => {
             checkedIcon={<Favorite/>}
             onChange={(e)=>{getValue(e)}}
             />
-         </h1>
+        
     </div>
   )
 }

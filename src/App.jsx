@@ -1,5 +1,6 @@
 import Buttons from "./components/Buttons.jsx"
 import CheckBoxes from "./components/CheckBoxes.jsx"
+import RadioButton from "./components/RadioButton.jsx"
 
 
 const App = () => {
@@ -8,6 +9,7 @@ const App = () => {
       <h1>REact UI</h1>
        <Buttons/>
        <CheckBoxes/>
+       <RadioButton/>
     </div>
   )
 }
